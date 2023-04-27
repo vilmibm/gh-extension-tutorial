@@ -16,17 +16,17 @@ this guide on how to extend the GitHub CLI with languages other than Go.
 ## Contents
 
 0. [Prerequisites](./chapters/00.md)
-1. Introduction
-2. Designing our extension
-3. Generating scaffolding
-4. Command dispatch
-5. User Input
-6. Calling the GitHub API
-7. Output Formatting
-8. Configuration
-9. Shipping your extension
-10. Non-Go extensions: Bash example
-11. Non-Go extensions: Rust example
+1. [Introduction](./chapters/01.md)
+2. [Designing our extension](./chapters/02.md)
+3. [Generating scaffolding](./chapters/03.md)
+4. [Command dispatch](./chapters/04.md)
+5. [User Input](./chapters/05.md)
+6. [Calling the GitHub API](./chapters/06.md)
+7. [Output Formatting](./chapters/07.md)
+8. [Configuration](./chapters/08.md)
+9. [Shipping your extension](./chapters/09.md)
+10. [Non-Go extensions: Bash example](./chapters/10.md)
+11. [Non-Go extensions: Rust example](./chapters/11.md)
 
 ## Author
 
