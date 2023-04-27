@@ -21,10 +21,10 @@ this guide on how to extend the GitHub CLI with languages other than Go.
 3. Generating scaffolding
 4. Command dispatch
 5. User Input
-6. Output Formatting
-7. Configuration
-8. Shipping your extension
-9. Quick tour of other go-gh features
+6. Calling the GitHub API
+7. Output Formatting
+8. Configuration
+9. Shipping your extension
 10. Non-Go extensions: Bash example
 11. Non-Go extensions: Rust example
 
@@ -51,3 +51,9 @@ vilmibm (Nate Smith) <vilmibm@github.com>
 I might not include replace--showing off multi-select is cool, but i think it's too much. Having two commands shows off dispatching and persistent flags and replace is too redundant with its topics.
 
 TODO: can i work in tty/non-tty behavior detection? yes, with transform.
+
+transform is too complicated / too much code. how about instead:
+
+gh lol yell [--loudness 10]
+
+which is issue list but in caps and a number of ! based on loudness?
