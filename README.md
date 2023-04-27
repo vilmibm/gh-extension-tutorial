@@ -31,29 +31,3 @@ this guide on how to extend the GitHub CLI with languages other than Go.
 ## Author
 
 vilmibm (Nate Smith) <vilmibm@github.com>
-
-- gh lol transform [-f function]
-  - gh issue list but with text transform applied
-  - if no args, ask which transformation (rot13, yelling, block)
-  - topics: interactivity, flag handling, output formatting, REST API
-- gh lol roulette [<resource>]
-  - close a random resource
-  - if no args, multi-select for resource type (issue, pr, discussion, etc)
-  - topics: interactivity, arg handling, GraphQL API
-- gh lol replace [<from>] [<to>]
-  - gh repo view but with find/replace
-  - if no args, ask for from and to
-  - topics: interactivity, arg handling, REST API
-
-- configuration option: rainbow true/false -- all output is rainbowed. respected in all commands.
-- persistent flag: --repo/-R
-
-I might not include replace--showing off multi-select is cool, but i think it's too much. Having two commands shows off dispatching and persistent flags and replace is too redundant with its topics.
-
-TODO: can i work in tty/non-tty behavior detection? yes, with transform.
-
-transform is too complicated / too much code. how about instead:
-
-gh lol yell [--loudness 10]
-
-which is issue list but in caps and a number of ! based on loudness?
