@@ -15,7 +15,7 @@ this guide on how to extend the GitHub CLI with languages other than Go.
 
 ## Contents
 
-0. Prerequisites
+0. [Prerequisites](./chapters/00.md)
 1. Introduction
 2. Designing our extension
 3. Generating scaffolding
