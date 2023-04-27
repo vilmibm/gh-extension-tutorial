@@ -10,7 +10,7 @@ how to make the most of the [go-gh](https://github.com/cli/go-gh) library.
 
 People with programming experience and familiarity with using CLI applications.
 Go is a scrutable language and any previous programming experience should carry
-over to reading and writing basic Go programs, though there is a chapter in
+over to reading and writing basic Go programs, though there are chapters in
 this guide on how to extend the GitHub CLI with languages other than Go.
 
 ## Contents
